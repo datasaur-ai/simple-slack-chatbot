@@ -1,0 +1,5 @@
+slack-bolt==1.21.2
+python-dotenv==1.0.1
+tinydb==4.8.2
+validators==0.34.0
+openai==1.54.4
