@@ -29,9 +29,9 @@ SLACK_APP_TOKEN=<your-app-token>
 
 1. Install python 3.9+
   
-2. Run the setup script
+2. Run the start script
 
 ```zsh
-bash setup.sh
+bash start.sh
 ```
 
