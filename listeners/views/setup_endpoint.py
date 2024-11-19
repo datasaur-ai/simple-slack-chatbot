@@ -7,7 +7,8 @@ from listeners.events.app_home_opened import app_home_opened_callback
 def handle_setup_endpoint_submission(ack, body, client, view):
     user_id = body["user"]["id"]
 
-    endpoint = view["state"]["values"]["endpoint_input"]["endpoint"]["value"]
+    endpoint = view["state"]["values"]["endpoint_input"]["endpoint"]["value"].replace(
+        "/chat/completions", "")
     api_key = view["state"]["values"]["api_key_input"]["api_key"]["value"]
 
     errors = {}

@@ -29,7 +29,7 @@ def setup_endpoint(ack, body, client):
                     "action_id": "endpoint",
                     "placeholder": {
                         "type": "plain_text",
-                        "text": "Ex: https://llm.datasaur.ai/api/sandbox/1/1/sandbox-1"
+                        "text": "Ex: https://llm.datasaur.ai/api/sandbox/1/1/sandbox-1/chat/completions"
                     }
                 }
             },
